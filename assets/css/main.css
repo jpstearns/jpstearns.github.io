@@ -17,3 +17,8 @@
 .slides  li blockquote footer{
 	color: #62c462;
 }
+.our-partners .row{
+	max-height: 165px;
+	overflow: hidden;
+	margin-top: 25px;
+}
