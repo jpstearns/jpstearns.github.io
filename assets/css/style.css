@@ -64,7 +64,7 @@
 	background: rgba(95,102,110,0.6);
 	border: 1px solid #a9a9aa;
 	width: 602px;
-	height: 250px;
+	height: 175px;
 	transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
@@ -143,7 +143,7 @@
 	
 }
 #slider .bottom-sec h2 {
-	font-size: 30px;
+	font-size: 36px;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
