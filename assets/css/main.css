@@ -1,0 +1,19 @@
+.image-icons{   
+  height: 118px;   
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}	
+
+.testimonial-container{
+	background: #2d2c32;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.testimonial-container h2{
+	color: #fff;
+}
+
+.slides  li blockquote footer{
+	color: #62c462;
+}
