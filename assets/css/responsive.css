@@ -16,7 +16,7 @@
  ----------------------------------------*/
 @media only screen and (min-width: 767px) {
 	#wrapper.boxed, .boxed #header {
-		margin: 0 auto;
+		margin: 0 auto;	
 		max-width: 768px;
 		width: 100%;
 	}
@@ -644,7 +644,7 @@
 		display: block;
 	}
 	.menu-wrapper {
-		background: #f38929;
+		background: #62c462;
 		margin-top: 20px;
 	}
 	 .secondry-header .num {
@@ -717,7 +717,7 @@
 	}
 
 	.menu-wrapper {
-		background: #f38929;
+		background: #62c462;
 		margin-top: 20px;
 	}
 	
