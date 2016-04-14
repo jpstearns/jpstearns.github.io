@@ -1,23 +1,11 @@
 $(document).ready(function(){
 	 var markers = [
             {
-   "title": 'Amsterdam',
-   "lat": '52.369752',
-   "lng": '4.890097'
-},
- {
-   "title": 'Amsterdam',
-   "lat": '52.371595',
-   "lng": '4.870633'
-},
-{
-   "title": 'Amsterdam',
-   "lat": '52.369149',
-   "lng": '4.901233'
-   
+   "title": 'A-Team Tree',
+   "lat": '41.5394980',
+   "lng": '-71.5398940'
 }
     ];
-
    	
 // Set style
    var styles = [
