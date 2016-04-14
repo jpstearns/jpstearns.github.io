@@ -22,3 +22,29 @@
 	overflow: hidden;
 	margin-top: 25px;
 }
+
+.our-team-container .team-slider .member-detail{
+	background: #444449;
+}
+.our-team-container .team-slider .social-list{
+	background: #444449;
+	color: #fff;
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.our-team-container .team-slider .member-detail .name a {
+    color: #fff;
+    text-transform: uppercase;
+}
