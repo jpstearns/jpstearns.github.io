@@ -48,3 +48,17 @@
     color: #fff;
     text-transform: uppercase;
 }
+#wrapper{
+	background-color: black;
+}
+.menu li a{
+	color: #aaa;
+}
+
+a.logo{
+	color: #aaa;
+}
+
+.num{
+	color: #aaa;
+}

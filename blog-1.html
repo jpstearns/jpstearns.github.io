@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<title>Industrial</title>
+		<title>A-Team | Professional Tree Service</title>
+		<link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<!-- google fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300%7CLibre+Baskerville:400,400italic,700%7CLato:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -11,10 +12,14 @@
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 		<link href="assets/css/font-awesome.min.css" rel="stylesheet">
 		<link href="assets/css/global.css" rel="stylesheet">
+		<link href="assets/css/settings.css" rel="stylesheet">
+		<!-- owl.carousel.css -->
 		<link href="assets/css/style.css" rel="stylesheet">
 		<link href="assets/css/responsive.css" rel="stylesheet">
-		<link href="assets/css/transition-effect.css" rel="stylesheet">
 		<link href="assets/css/skin.less" rel="stylesheet/less">
+		<link href="assets/css/main.css" rel="stylesheet">
+		<link href="assets/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -26,7 +31,6 @@
 	<body>
 		<!--Wrapper Section Start Here -->
 		<div id="wrapper">
-
 			<div id="pageloader" class="row m0">
 				<div class="loader-item"><img src="assets/svg/grid.svg" alt="loading"></div>
 			</div>
@@ -36,15 +40,15 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-5 left-header">
-								<span>Welcome to Industrial Theme</span>
+								<!-- <span>A Team Tree Experts</span> -->
 							</div>
 							<div class="col-sm-7 right-header">
 								<ul>
 									<li>
-										<a href="mailto:info@industrialtheme.com"><i class="fa fa-envelope-o"></i> info@industrialtheme.com</a>
+										<a href="mailto:info@a-teamtree.com"><i class="fa fa-envelope-o"></i> info@a-teamtree.com</a>
 									</li>
 									<li>
-										<a href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+										<a href="https://www.facebook.com/ateamtreeRI" target="_blank"><i class="fa fa-facebook"></i></a>
 									</li>
 									<li>
 										<a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -61,8 +65,11 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12 col-sm-4">
-								<a href="index.html" class="logo"><img src="assets/img/logo.png" alt="logo" /></a>
-								<span class="num">+ 215 623 7532</span>
+								<a href="index.html" class="logo">
+									<img src="assets/img/logo.png" alt="logo" style="max-height: 29px"/>
+									<span style="font-size: 21px; font-family: 'Archivo Black', sans-serif;">-TEAM TREE</span>
+								</a>
+								<span class="num">+ (401) 269-6084</span>
 							</div>
 							<div class="col-xs-12 col-sm-8 menu-wrapper">
 								<div class="button-wrapper">
@@ -71,11 +78,11 @@
 								<nav class="navigation">
 
 									<ul class="menu">
-										<li>
+										<li class="active">
 											<a href="index.html">home</a>
 
 										</li>
-										<li>
+										<!-- <li>
 											<a href="#">projects</a>
 											<ul class="submenu">
 												<li>
@@ -91,13 +98,13 @@
 													<a href="projects-details.html">projects-details</a>
 												</li>
 											</ul>
-										</li>
-										<li>
+										</li> -->
+										<!-- <li>
 											<a href="clients.html">Clients</a>
-										</li>
+										</li> -->
 										<li>
-											<a href="#">about us</a>
-											<ul class="submenu">
+											<a href="about-us.html">about us</a>
+											<!-- <ul class="submenu">
 												<li>
 													<a href="about-us.html">about-us</a>
 												</li>
@@ -107,20 +114,20 @@
 												<li>
 													<a href="faq.html">faq</a>
 												</li>
-											</ul>
+											</ul> -->
 										</li>
 										<li>
-											<a href="#">blog</a>
+											<a href="blog-1">blog</a>
 											<ul class="submenu">
-												<li>
-													<a href="blog-1.html">blog-1</a>
-												</li>
-												<li>
+												<!-- <li>
+													<a href="blog-1.html">blog</a>
+												</li> -->
+												<!-- <li>
 													<a href="blog-2.html">blog-2</a>
 												</li>
 												<li>
 													<a href="blog-post.html">blog-post</a>
-												</li>
+												</li> -->
 											</ul>
 										</li>
 										<li>
@@ -128,7 +135,7 @@
 										</li>
 									</ul>
 								</nav>
-								<a href="#" class="quote">GET A QUOTE</a>
+								<a href="#" class="quote">FREE Quote</a>
 							</div>
 
 						</div>
@@ -136,6 +143,7 @@
 				</div>
 
 			</header>
+			<!--header Section End Here -->
 			<!--header Section End Here -->
 
 			<!--content Section Start Here -->
@@ -173,31 +181,31 @@
 										<article class="zoom clearfix">
 
 											<figure class="img-box">
-												<a href="blog-post.html"><img src="assets/img/blog-img-1.jpg" alt="" /></a>
+												<a href="blog-post.html"><img src="assets/img/chogginchey.jpg" alt="" /></a>
 											</figure>
 											<div class="detail">
 												<ul class="post-detail clearfix">
 													<li>
-														<a href="#">October 13, 2014</a>
+														<a href="#">December 13, 2015</a>
 													</li>
 													<li>
-														<a href="#">By Primož Cigler</a>
+														<a href="#">By Brad Hone/a>
 													</li>
-													<li>
+													<!-- <li>
 														<a href="#">4 Comments</a>
-													</li>
+													</li> -->
 												</ul>
-												<h3><a href="blog-post.html">10 Tips for buying new dream house – sticky</a><i></i></h3>
+												<h3><a href="blog-post.html">Choggin Down Cherry</a><i></i></h3>
 												<ul class="cat-list clearfix">
 													<li>
-														<a href="#">CONSTRUCTION</a>
+														<a href="#">South Kingstown RI</a>
 													</li>
 													<li>
-														General Information
+														Taking Home that Cherry Wood
 													</li>
 												</ul>
 												<p>
-													<iframe width="560" height="315" src="https://www.youtube.com/embed/jFiw8UojUsc" frameborder="0" allowfullscreen></iframe>
+													Today was such a great day for climbing, especially given that it is the middle of winter and the A-Team is still out doing our thing. It was unfortunate to see this Cherry Tree go, but an invasive vine species had managed to wrap around the base and climb to the canopy choking out the tree. Remember guys if you love your trees vine maintenence is a must.
 												</p>
 												<a href="blog-post.html" class="more">READ MORE</a>
 											</div>
@@ -206,7 +214,7 @@
 
 										<article class="zoom clearfix">
 											<figure class="img-box fade-effect">
-												<a href="blog-post.html"><img src="assets/img/blog-img-2.jpg" alt="" /></a>
+												<a href="blog-post.html"><img src="assets/img/office-img-1.jpg" alt="" /></a>
 											</figure>
 											<div class="detail animate-effect ">
 												<ul class="post-detail clearfix">
@@ -214,23 +222,23 @@
 														<a href="#">October 13, 2014</a>
 													</li>
 													<li>
-														<a href="#">By Primož Cigler</a>
+														<a href="#">By Earl Hawkins</a>
 													</li>
-													<li>
+													<!-- <li>
 														<a href="#">4 Comments</a>
-													</li>
+													</li> -->
 												</ul>
-												<h3><a href="blog-post.html">10 Tips for buying new dream house – sticky</a><i></i></h3>
+												<h3><a href="blog-post.html">Species Identification</a><i></i></h3>
 												<ul class="cat-list clearfix">
 													<li>
-														<a href="#">CONSTRUCTION</a>
+														<a href="#">Exeter RI</a>
 													</li>
 													<li>
-														General Information
+														Learning to Spot Them
 													</li>
 												</ul>
 												<p>
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit, nulla quis fermentum hendrerit, nisi diam viverra metus, porta semper est ipsum et sapien.
+													Lately I have been preparing for the species identification portion of the ISA Arborist Exam. The important thing about species identification is not only learning what the names for trees are, but learning about how to properly address the trials and tribultions that each species suffer.
 												</p>
 												<a href="blog-post.html" class="more">READ MORE</a>
 											</div>
@@ -239,31 +247,31 @@
 
 										<article class="zoom clearfix">
 											<figure class="img-box fade-effect">
-												<a href="blog-post.html"><img src="assets/img/blog-img-3.jpg" alt="" /></a>
+												<a href="blog-post.html"><img src="assets/img/image-17.jpg" alt="" /></a>
 											</figure>
 											<div class="detail animate-effect">
 												<ul class="post-detail clearfix">
 													<li>
-														<a href="#">October 13, 2014</a>
+														<a href="#">May 22, 2013</a>
 													</li>
 													<li>
-														<a href="#">By Primož Cigler</a>
+														<a href="#">Jay Silverstien</a>
 													</li>
-													<li>
+													<!-- <li>
 														<a href="#">4 Comments</a>
-													</li>
+													</li> -->
 												</ul>
-												<h3><a href="blog-post.html">10 Tips for buying new dream house – sticky</a><i></i></h3>
+												<h3><a href="blog-post.html">Learning to Use the Equipment</a><i></i></h3>
 												<ul class="cat-list clearfix">
 													<li>
-														<a href="#">CONSTRUCTION</a>
+														<a href="#">Hopkington RI</a>
 													</li>
 													<li>
-														General Information
+														The Chipper and Chainsaws
 													</li>
 												</ul>
 												<p>
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit, nulla quis fermentum hendrerit, nisi diam viverra metus, porta semper est ipsum et sapien.
+													Today I was trained on the proper way to start and run a Vermeer BC 1000 chipper safely and effectively.  Chippers are very dangerous machines and this is why we are so thoroughly trained by the professionals at A-team to avoid accidents and get jobs done on time.
 												</p>
 												<a href="blog-post.html" class="more">READ MORE</a>
 											</div>
@@ -272,38 +280,38 @@
 
 										<article class="zoom clearfix">
 											<figure class="img-box fade-effect ">
-												<a href="blog-post.html"><img src="assets/img/blog-img-4.jpg" alt="" /></a>
+												<a href="blog-post.html"><img src="assets/img/komatsu.png" alt="" /></a>
 											</figure>
 											<div class="detail animate-effect">
 												<ul class="post-detail clearfix">
 													<li>
-														<a href="#">October 13, 2014</a>
+														<a href="#">July 2015</a>
 													</li>
 													<li>
-														<a href="#">By Primož Cigler</a>
+														<a href="#">Jared Stearns</a>
 													</li>
 													<li>
 														<a href="#">4 Comments</a>
 													</li>
 												</ul>
-												<h3><a href="blog-post.html">10 Tips for buying new dream house – sticky</a><i></i></h3>
+												<h3><a href="blog-post.html">Gone Fishing</a><i></i></h3>
 												<ul class="cat-list clearfix">
 													<li>
-														<a href="#">CONSTRUCTION</a>
+														<a href="#">Narragansette RI</a>
 													</li>
 													<li>
-														General Information
+														The Dock Job
 													</li>
 												</ul>
 												<p>
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit, nulla quis fermentum hendrerit, nisi diam viverra metus, porta semper est ipsum et sapien.
+													I will never forget today's job because it is the first time I have ever had to deal with a tree that has fallen in water. Our customer's Red Oak fell through his dock leaving an enormous mess in its wake. As the ground foreman it was my job to get out there in the water and get the tree off the dock. What a crazy day.
 												</p>
 												<a href="blog-post.html" class="more">READ MORE</a>
 											</div>
 
 										</article>
 
-										<ul class="pagination-box animate-effect">
+										<!-- <ul class="pagination-box animate-effect">
 											<li class="active">
 												<a href="#">1</a>
 											</li>
@@ -317,7 +325,7 @@
 												<a href="#">4</a>
 											</li>
 										</ul>
-
+ -->
 									</div>
 								</div>
 							</div>
@@ -329,6 +337,7 @@
 			</div>
 			<!--content Section End Here -->
 
+
 			<!--footer Section Start Here -->
 			<footer id="footer">
 
@@ -339,20 +348,20 @@
 							<div class="col-xs-12 animate-effect">
 								<div class="box">
 									<em class="location-svg"><img src="assets/svg/05.svg" alt="" class="svg"/></em>
-									<strong>227 Marion Street</strong>
-									<span>Columbia, SC 29201</span>
+									<strong>339 South County Trail</strong>
+									<span>Exeter, RI 02822</span>
 								</div>
 
 								<div class="box call">
 									<em class="fa fa-phone"></em>
-									<strong>1-888-123-4567</strong>
-									<span><a href="mailto:info@industrial.com">info@industrial.com</a></span>
+									<strong>(401) 269-6084</strong>
+									<span><a href="mailto:info@a-teamtree.com">info@a-teamtree.com</a></span>
 								</div>
 
 								<div class="box last">
 									<ul class="clearfix">
 										<li>
-											<a href="#"><i class="fa fa-facebook"></i></a>
+											<a href="https://www.facebook.com/ateamtreeRI"><i class="fa fa-facebook"></i></a>
 										</li>
 										<li>
 											<a href="#"><i class="fa fa-twitter"></i></a>
@@ -372,7 +381,7 @@
 				</div>
 				<!--contact-us-container End Here -->
 
-				<div class="primary-footer">
+				<!-- <div class="primary-footer">
 					<div class="container">
 						<div class="row animate-effect">
 							<div class="col-xs-12 col-sm-4">
@@ -432,7 +441,7 @@
 						</div>
 
 					</div>
-				</div>
+				</div> -->
 			</footer>
 			<!--footer Section End Here -->
 
@@ -440,11 +449,12 @@
 		<!--Wrapper Section End Here -->
 
 		<script src="assets/js/jquery-1.11.2.min.js"></script>
+		<script src="assets/js/jquery.easing.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/less.js"></script>
 		<script src="assets/js/jquery.bxslider.js"></script>
 		<script defer src="assets/js/jquery.flexslider.js"></script>
 		<script src="assets/js/site.js"></script>
-
+		<script src="assets/lightbox2-master/dist/js/lightbox.js"></script>
 	</body>
 </html>
